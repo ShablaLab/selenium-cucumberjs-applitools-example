@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@login" value="true">
+            </property>
+            <property name="URI" value="/Users/jay/Documents/Personal/workspace/selenium-cucumberjs-applitools-example/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the login home page" classname="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" time="6.903211291">
+        </testcase>
+        <testcase name="When I login with username as &quot;standard_user&quot; and password as &quot;secret_sauce&quot;" classname="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" time="0.148332417">
+        </testcase>
+        <testcase name="Then I should be able to login successfully" classname="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" time="0.015222334">
+        </testcase>
+        <testcase name="Then Verify the screen for the visual test &quot;Successful Login Page&quot;" classname="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" time="0.000062708">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" tests="4" failures="1" skipped="1">
+        <properties>
+            <property name="@login" value="true">
+            </property>
+            <property name="URI" value="/Users/jay/Documents/Personal/workspace/selenium-cucumberjs-applitools-example/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the login home page" classname="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" time="9.419188625">
+        </testcase>
+        <testcase name="When I login with username as &quot;standard_user&quot; and password as &quot;wrong_secret_sauce&quot;" classname="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" time="0.100146125">
+        </testcase>
+        <testcase name="Then I should be able to login successfully" classname="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline" time="90.000106042">
+            <failure message="function timed out after 90000 milliseconds">function timed out after 90000 milliseconds</failure>
+        </testcase>
+        <testcase name="Then Verify the screen for the visual test &quot;Successful Login Page&quot;" classname="login-to-the-saucelabs-demo-application;an-example-scenario-to-demonstrate-the-scenario-outline">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
